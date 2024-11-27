@@ -58,7 +58,7 @@ Para ejecutar este proyecto localmente, necesitas tener **Python 3.x** y las sig
 
 1. Clona este repositorio a tu máquina local:
     ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
+    git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/Sebas23615/Proyecto-Final-Toma-I-.git)
     ```
 
 2. Navega al directorio del proyecto:
