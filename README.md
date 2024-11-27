@@ -53,6 +53,7 @@ Para ejecutar este proyecto localmente, necesitas tener **Python 3.x** y las sig
 - Matplotlib
 - Seaborn
 - Plotly
+- Kagglehub
 
 ### Instrucciones para ejecutar localmente
 
