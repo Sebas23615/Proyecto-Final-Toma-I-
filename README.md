@@ -97,6 +97,8 @@ Para desplegar la aplicación en **Streamlit Cloud** y compartirla con otros sin
 
 Una vez desplegada, podrás compartir el enlace generado por Streamlit Cloud para que otros usuarios accedan a la aplicación.
 
+[Accede a la App](https://tomadecisiones1.streamlit.app/)
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
