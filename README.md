@@ -99,13 +99,3 @@ Para desplegar la aplicación en **Streamlit Cloud** y compartirla con otros sin
 Una vez desplegada, podrás compartir el enlace generado por Streamlit Cloud para que otros usuarios accedan a la aplicación.
 
 [Accede a la App](https://tomadecisiones1.streamlit.app/)
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
-
-1. Forkea este repositorio.
-2. Crea una rama con tus cambios (`git checkout -b feature-nueva`).
-3. Haz commit de tus cambios (`git commit -am 'Añadir nueva característica'`).
-4. Haz push a tu rama (`git push origin feature-nueva`).
-5. Abre un pull request.
