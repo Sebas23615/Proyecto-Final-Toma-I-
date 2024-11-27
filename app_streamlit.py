@@ -161,8 +161,8 @@ elif pages == "Filtrado y Analisis de Datos":
                                             max_value=float(max_cost), 
                                             value=(float(min_cost), float(max_cost)))
 
-    filtered_data = filtered_data[(filtered_data['Charging Rate (kW)'] >= selected_rate_range[0]) & 
-                                (filtered_data['Charging Rate (kW)'] <= selected_rate_range[1])]
+    filtered_data = filtered_data[(filtered_data['Charging Cost (USD)'] >= selected_cost_range[0]) & 
+                                (filtered_data['Charging Cost (USD)'] <= selected_cost_range[1])]
 
     # Filtrar por Número de usuario
     st.sidebar.subheader("🔢 Filtrar por Número de Usuario")
