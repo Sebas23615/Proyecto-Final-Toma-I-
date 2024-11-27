@@ -81,7 +81,7 @@ Para ejecutar este proyecto localmente, necesitas tener **Python 3.x** y las sig
 
 5. Ejecuta la aplicación Streamlit:
     ```bash
-    streamlit run app.py
+    streamlit run app_streamlit.py
     ```
 
 ### Despliegue en Streamlit Cloud
