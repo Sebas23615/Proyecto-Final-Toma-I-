@@ -63,7 +63,7 @@ Para ejecutar este proyecto localmente, necesitas tener **Python 3.x** y las sig
 
 2. Navega al directorio del proyecto:
     ```bash
-    cd tu_repositorio
+    cd Proyecto-Final-Toma-I-
     ```
 
 3. Crea un entorno virtual (opcional pero recomendado):
