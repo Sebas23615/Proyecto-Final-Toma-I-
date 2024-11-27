@@ -153,13 +153,16 @@ elif pages == "Filtrado y Analisis de Datos":
     else:
         filtered_data = datos
 
-    # Agregar un slider para el costo de carga
+    # Filtrar por Rango de costo de carga
     st.sidebar.subheader("💰 Filtrar por rango de costos de carga")
     min_cost, max_cost = datos['Charging Cost (USD)'].min(), datos['Charging Cost (USD)'].max()
-    selected_cost_range = st.sidebar.slider("Selecciona el rango:", min_value=float(min_cost), max_value=float(max_cost), value=(float(min_cost), float(max_cost)))
+    selected_cost_range = st.sidebar.slider("Selecciona el rango de costos de carga:", 
+                                            min_value=float(min_cost), 
+                                            max_value=float(max_cost), 
+                                            value=(float(min_cost), float(max_cost)))
 
-    filtered_data = filtered_data[(filtered_data['Charging Cost (USD)'] >= selected_cost_range[0]) & 
-                              (filtered_data['Charging Cost (USD)'] <= selected_cost_range[1])]
+    filtered_data = filtered_data[(filtered_data['Charging Rate (kW)'] >= selected_rate_range[0]) & 
+                                (filtered_data['Charging Rate (kW)'] <= selected_rate_range[1])]
 
     # Filtrar por Número de usuario
     st.sidebar.subheader("🔢 Filtrar por Número de Usuario")
